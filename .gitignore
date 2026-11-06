@@ -44,6 +44,17 @@ local.properties
 *.keystore
 *.jks
 
+# Flutter & Dart build artifacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/build/
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/assets/data/*.db
+flutter_app/assets/data/*.json
+backend/app/data/*.json
+
 # Database & runtime files
 *.db
 *.sqlite
