@@ -75,7 +75,7 @@ Whether you're a student of knowledge, a scholar, or simply curious, Islam Unity
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/islam-unity.git
+git clone https://github.com/islam-unity/islam-unity.git
 cd islam-unity
 ```
 
@@ -198,8 +198,8 @@ This project is licensed under the **GNU General Public License v3.0** — see t
 
 ### 💬 Contact
 
-- **GitHub Issues**: [Report a Bug or Request a Feature](https://github.com/YOUR_USERNAME/unity_V2/issues)
-- **Discussions**: [Join the Conversation](https://github.com/YOUR_USERNAME/unity_V2/discussions)
+- **GitHub Issues**: [Report a Bug or Request a Feature](https://github.com/islam-unity/islam-unity/issues)
+- **Discussions**: [Join the Conversation](https://github.com/islam-unity/islam-unity/discussions)
 
 ---
 
@@ -253,7 +253,7 @@ This project is licensed under the **GNU General Public License v3.0** — see t
 </div>
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/islam-unity.git
+git clone https://github.com/islam-unity/islam-unity.git
 cd islam-unity
 ```
 
@@ -310,7 +310,7 @@ http://localhost:8000/admin/
 
 ### 💬 ارتباط با ما
 
-- **مشکلات و پیشنهادات**: [ثبت مشکل یا درخواست ویژگی](https://github.com/YOUR_USERNAME/unity_V2/issues)
-- **بحث و گفتگو**: [شرکت در گفتگوها](https://github.com/YOUR_USERNAME/unity_V2/discussions)
+- **مشکلات و پیشنهادات**: [ثبت مشکل یا درخواست ویژگی](https://github.com/islam-unity/islam-unity/issues)
+- **بحث و گفتگو**: [شرکت در گفتگوها](https://github.com/islam-unity/islam-unity/discussions)
 
 </div>

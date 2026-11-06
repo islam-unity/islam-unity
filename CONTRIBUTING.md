@@ -26,7 +26,7 @@ Islam Unity is an open-source project, and we welcome contributions from everyon
 
 ```bash
 # Fork the repository on GitHub, then:
-git clone https://github.com/YOUR_USERNAME/islam-unity.git
+git clone https://github.com/islam-unity/islam-unity.git
 cd islam-unity
 ```
 
@@ -250,7 +250,7 @@ By contributing, you agree that your contributions will be licensed under the sa
 
 ```bash
 # مخزن را در GitHub فورک کنید، سپس:
-git clone https://github.com/YOUR_USERNAME/islam-unity.git
+git clone https://github.com/islam-unity/islam-unity.git
 cd islam-unity
 ```
 

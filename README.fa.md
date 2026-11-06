@@ -79,7 +79,7 @@
 </div>
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/islam-unity.git
+git clone https://github.com/islam-unity/islam-unity.git
 cd islam-unity
 ```
 
@@ -229,8 +229,8 @@ unity_V2/
 
 ## 💬 ارتباط با ما
 
-- **مشکلات و پیشنهادات**: [ثبت مشکل یا درخواست ویژگی](https://github.com/YOUR_USERNAME/unity_V2/issues)
-- **بحث و گفتگو**: [شرکت در گفتگوها](https://github.com/YOUR_USERNAME/unity_V2/discussions)
+- **مشکلات و پیشنهادات**: [ثبت مشکل یا درخواست ویژگی](https://github.com/islam-unity/islam-unity/issues)
+- **بحث و گفتگو**: [شرکت در گفتگوها](https://github.com/islam-unity/islam-unity/discussions)
 
 ---
 
