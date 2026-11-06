@@ -79,12 +79,12 @@ Thumbs.db
 # Assistant & Agent tooling cache
 .gemini/
 .agents/
-check_*.py
-test_*.py
-delete_*.py
-find_*.py
-inspect_*.py
-group_analysis.py
+/check_*.py
+/test_*.py
+/delete_*.py
+/find_*.py
+/inspect_*.py
+/group_analysis.py
 remote_openapi.json
 openapi_analysis.json
 ingestion_state.json

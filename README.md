@@ -15,6 +15,10 @@
 
 </div>
 
+<div align="center">
+  <img src="docs/images/showcase-en.jpg" alt="Islam Unity Platform Showcase" width="100%" />
+</div>
+
 ---
 
 <a id="english"></a>
@@ -24,6 +28,14 @@
 ### About
 
 **Islam Unity (اتحاد اسلامی)** is a comprehensive, open-source Islamic platform that combines traditional Islamic knowledge — including the Holy Quran, Hadith, Tafsir, and Fiqh — with modern AI technology. Our mission is to make authentic Islamic scholarship accessible to everyone, everywhere, through intelligent tools and a beautiful user experience.
+
+### 🕊️ Our Vision: Unity Across All Islamic Schools of Thought (تقریب و همگرایی مذاهب)
+
+> **"This platform is the culmination of two years of dedicated labor. Our foundational mission is to provide an inclusive sanctuary where adherents, scholars, and researchers of all Islamic schools of thought — Ja'fari, Hanafi, Shafi'i, Maliki, Hanbali, Zaydi, and beyond — collaborate side by side in mutual brotherhood and respect. Together, we strive to elevate Islamic scholarship, expand access to authentic knowledge, and strengthen the bonds of unity across the Muslim Ummah without polarization or discord."**
+
+### ⚡ Built for Developers: Ready-to-Use Islamic Backend & REST API
+
+> **Why reinvent the wheel?** Developers building Islamic mobile apps, websites, or research tools no longer need to spend months architecting database schemas, parsing Arabic/Persian classical texts, or building complex search infrastructure. **Islam Unity provides a complete, production-ready, asynchronous FastAPI backend with 46+ RESTful endpoints** covering the Holy Quran, Hadith databases, digital library, prayer times, Qibla calculation, and state-of-the-art AI assistants. You can clone this engine and immediately power your own applications!
 
 Whether you're a student of knowledge, a scholar, or simply curious, Islam Unity provides the resources and AI-powered assistance you need to deepen your understanding of Islam.
 

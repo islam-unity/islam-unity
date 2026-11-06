@@ -45,6 +45,10 @@ Welcome to the Islam Unity roadmap. This document outlines our strategic goals, 
   - Offline-first caching for full Quran audio and text.
   - Dark mode and custom Islamic typography (Uthmani script tuning).
   - Background audio playback with locked-screen controls.
+- [ ] **Islamic History & Civilization Timeline (تاریخ و تمدن اسلام)**:
+  - Interactive chronological timeline of Islamic history (Prophetic era, early Islamic history, and the Golden Age of Islamic Science).
+  - Comprehensive biographies and intellectual lineages of prominent scholars, jurists, scientists, and philosophers across all schools of thought.
+  - Historical geo-atlas of Islamic civilizations, heritage cities, and classical libraries.
 
 ---
 
@@ -103,6 +107,10 @@ Welcome to the Islam Unity roadmap. This document outlines our strategic goals, 
 - [ ] **ارتقای اپلیکیشن موبایل**:
   - پشتیبانی کامل آفلاین از متن قرآن، تفاسیر پرکاربرد و صوت منتخب.
   - پخش‌کننده پس‌زمینه صوت قرآن در پس‌زمینه همراه با اعلان‌های کنترلی.
+- [ ] **گاه‌شمار جامع تاریخ و تمدن اسلام (Islamic History & Timeline)**:
+  - خط زمانی تعاملی رویدادهای سرنوشت‌ساز تاریخ اسلام (عصر نبوی، صدر اسلام و عصر طلایی شکوفایی علوم اسلامی).
+  - دانشنامه و زندگینامه علمی برجسته‌ترین علما، فقیهان، دانشمندان و مصلحان تمامی مذاهب اسلامی بدون تعصب.
+  - اطلس جغرافیای تاریخی جهان اسلام، مسیرهای تمدنی و مراکز کهن علمی و کتابخانه‌های تاریخی.
 
 ---
 
