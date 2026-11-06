@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>پنل مدیریت سامانه یکپارچه اتحاد</title>
+  <!-- Zero External CDN - Native CSS Design System -->
+  <link rel="stylesheet" href="/admin/assets/css/admin.css">
+</head>
+<body>
+
+  <div class="app-shell">
+    <!-- Right Sidebar Navigation (260px) -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo-badge">اتـ</div>
+        <div>
+          <div class="sidebar-title">سامانه جامع اتحاد</div>
+          <div class="sidebar-subtitle">پنل مدیریت یکپارچه معارفی</div>
+        </div>
+      </div>
+
+      <nav class="sidebar-nav">
+        <a href="#overview" class="nav-item active">
+          <span class="nav-icon">📊</span>
+          <span>نمای کلی و آمار</span>
+        </a>
+        <a href="#users" class="nav-item">
+          <span class="nav-icon">👥</span>
+          <span>کاربران و پرسونا</span>
+        </a>
+        <a href="#consultations" class="nav-item">
+          <span class="nav-icon">💬</span>
+          <span>مشاوره دینی و اساتید</span>
+        </a>
+        <a href="#library" class="nav-item">
+          <span class="nav-icon">📚</span>
+          <span>کتابخانه و دانش معنایی</span>
+        </a>
+        <a href="#quran" class="nav-item">
+          <span class="nav-icon">📖</span>
+          <span>قرآن کریم و قاریان</span>
+        </a>
+        <a href="#ai" class="nav-item">
+          <span class="nav-icon">🤖</span>
+          <span>هوش مصنوعی و هزینه‌ها</span>
+        </a>
+        <a href="#rag-eval" class="nav-item">
+          <span class="nav-icon">🔬</span>
+          <span>آزمایشگاه و ارزیابی RAG</span>
+        </a>
+        <a href="#feed" class="nav-item">
+          <span class="nav-icon">🛡️</span>
+          <span>فید و نظارت بر محتوا</span>
+        </a>
+        <a href="#monitoring" class="nav-item">
+          <span class="nav-icon">📈</span>
+          <span>مانیتورینگ زنده و جلسات</span>
+        </a>
+        <a href="#prayer-times" class="nav-item">
+          <span class="nav-icon">🕌</span>
+          <span>اوقات شرعی و اذان</span>
+        </a>
+        <a href="#dhikr" class="nav-item">
+          <span class="nav-icon">📿</span>
+          <span>ادعیه، اذکار و دسته‌بندی‌ها</span>
+        </a>
+        <a href="#developers" class="nav-item">
+          <span class="nav-icon">🔑</span>
+          <span>توسعه‌دهندگان و سیستم</span>
+        </a>
+      </nav>
+
+
+      <div class="sidebar-footer">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span>نسخه: ۱.۰.۰ (M2)</span>
+          <span style="font-size: 0.75rem; color: #10b981;">FastAPI Core</span>
+        </div>
+        <div style="font-size: 0.72rem; color: #475569;">
+          طراحی بومی بدون وابستگی خارجی
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Wrapper -->
+    <div class="main-wrapper">
+      <!-- Top Sticky Header -->
+      <header class="top-header">
+        <div class="header-title-wrap">
+          <h1 id="header-active-title" class="header-title">نمای کلی و آمار سامانه</h1>
+        </div>
+
+        <div class="header-meta" style="display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;">
+          <span id="header-current-date" class="header-date"></span>
+
+          <div id="header-server-switcher" style="display: flex; align-items: center; gap: 0.35rem; font-size: 0.78rem;">
+            <span style="color: var(--text-muted); font-size: 0.75rem;">🌐 سرور:</span>
+            <select id="select-backend-endpoint" class="select-control" style="padding: 0.2rem 0.5rem; font-size: 0.75rem; height: 28px; border-radius: 4px;">
+              <option value="auto">پیش‌فرض (اتصال مستقیم)</option>
+              <option value="https://api.unitysi.ir/api/v1/admin">سرور رسمی (api.unitysi.ir)</option>
+              <option value="http://localhost:8000/api/v1/admin">سرور توسعه (localhost:8000)</option>
+            </select>
+          </div>
+
+          <div id="header-status-pill" class="status-pill" style="cursor: pointer;" title="کلیک جهت تست مجدد اتصال به بک‌اند">
+            <span id="header-status-dot" class="status-dot"></span>
+            <span id="header-status-text">در حال بررسی اتصال...</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Dynamic Content Area -->
+      <main class="content-body">
+        <div id="admin-content-view">
+          <div class="loading-container">
+            <div class="spinner spinner-lg"></div>
+            <div>در حال بارگذاری پنل مدیریت...</div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Lateral Slide-Over Detail Drawer (580px, Left side in RTL) -->
+  <div id="drawer-backdrop" class="drawer-backdrop"></div>
+  <aside id="admin-drawer" class="drawer" aria-label="کشوی جانبی جزئیات">
+    <div class="drawer-header">
+      <div class="drawer-title-wrap">
+        <h2 id="drawer-title" class="drawer-title">جزئیات</h2>
+        <span id="drawer-subtitle" class="drawer-subtitle"></span>
+      </div>
+      <button id="drawer-close-btn" class="drawer-close-btn" title="بستن (Esc)">✕</button>
+    </div>
+    <div id="drawer-body" class="drawer-body"></div>
+    <div id="drawer-footer" class="drawer-footer"></div>
+  </aside>
+
+  <!-- Toast Notification Container (Bottom-Left) -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Pure ES2022 Native Module Entry Point -->
+  <script type="module" src="/admin/assets/js/app.js"></script>
+</body>
+</html>
