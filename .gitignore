@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments & secrets
+.env
+.env.local
+.env.*.local
+.venv/
+venv/
+env/
+
+# Node / Mobile dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Android / Mobile build files
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+.gradle/
+**/android/.gradle/
+**/android/build/
+**/android/app/build/
+**/android/captures/
+local.properties
+.cxx/
+*.keystore
+*.jks
+
+# Database & runtime files
+*.db
+*.sqlite
+*.sqlite3
+backend/media/ai_exports/
+media/ai_exports/
+media/uploads/
+
+# Log files
+*.log
+error.*.log
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Assistant & Agent tooling cache
+.gemini/
+.agents/
+check_*.py
+test_*.py
+delete_*.py
+find_*.py
+inspect_*.py
+group_analysis.py
+remote_openapi.json
+openapi_analysis.json
+ingestion_state.json
+
+# Raw data, backups & design artifacts
+raw_data_books/
+knowledge_backup/
+stitch_screens/
+stitch_screens_knowledge/
+stitch_screens_reader/
+teamwork/
+*.jsonl
+agent_evaluation_benchmark.json
+benchmark_execution_report.json
+extracted_test_samples.json
+
